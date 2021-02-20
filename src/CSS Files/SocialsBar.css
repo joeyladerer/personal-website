@@ -1,0 +1,16 @@
+.Layout {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px;
+
+    position: absolute;
+    width: 70vw;
+    height: 30px;
+    top: 770px;
+}
+
+.Button {
+
+}
