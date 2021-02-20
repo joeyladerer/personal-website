@@ -1,6 +1,6 @@
 import React from "react"
 import '../CSS Files/SocialsBar.css'
-import { FaInstagram, FaGithub, FaSpotify, FaItunes, FaYoutube } from "react-icons/fa";
+import { FaInstagram, FaGithub, FaSpotify, FaItunes, FaYoutube, FaLinkedin } from "react-icons/fa";
 import { Button } from '@chakra-ui/react'
 import SocialButton from "../Atoms/SocialButton";
 
@@ -26,6 +26,10 @@ function SocialsBar() {
             <SocialButton
                 image={<FaSpotify size={50} color={"black"}/>}
                 name={"spotify"}
+            />
+            <SocialButton
+                image={<FaLinkedin size={50} color={"black"}/>}
+                name={"linkedin"}
             />
         </div>
     )

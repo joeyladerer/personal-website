@@ -20,11 +20,18 @@ function SocialButton(props) {
             height={50}
             onClick={() => {
                 if (props.name === "github") {
-                    window.open("https://www.youtube.com/channel/UC5yMP3PAdIRovMl76dABP0w", "_blank")
+                    window.open("https://github.com/joeyladerer", "_blank")
+                } else if (props.name === "yt") {
+                    window.open("https://www.youtube.com/channel/UC2Ht2WNe94w8bSxCGW8AidQ", "_blank")
+                } else if (props.name === "insta") {
+                    window.open("https://www.instagram.com/joeyladerer/", "_blank")
+                } else if (props.name === "itunes") {
+                    window.open("https://music.apple.com/us/artist/joey-laderer/1512388519", "_blank")
+                } else  if (props.name === "linkedin") {
+                    window.open("https://www.linkedin.com/in/joey-laderer/", "_blank")
                 } else {
-                    window.open("https://sugardrive.net", "_blank")
+                    window.open("https://open.spotify.com/artist/5VfZ4trT5WsG9IkEGnWOMy?si=UvARutaTRJuvf0N27HktuA", "_blank")
                 }
-
             }
             }
         >
