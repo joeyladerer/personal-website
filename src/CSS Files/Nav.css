@@ -3,12 +3,11 @@
 }
 
 .Nav-Box {
-    position: absolute;
     width: 100vw;
     height: 75px;
     left: 0px;
     top: 0px;
-    z-index: auto;
+    z-index: 0;
     background: linear-gradient(180deg, #000000 73.3%, rgba(0, 0, 0, 0) 100%);
 }
 
@@ -17,12 +16,8 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    padding: 0px;
-
-    position: absolute;
-    width: 100vw;
-    height: 30px;
-    top: 18px;
+    z-index: 1;
+    margin-top: -65px;
 }
 
 .Nav-Button {
@@ -31,4 +26,5 @@
     font-min-size: small;
     color: white;
     background-color: black;
+
 }

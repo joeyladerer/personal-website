@@ -1,11 +1,9 @@
 .Profile-Image {
     display: flex;
     align-content: center;
-    position: absolute;
-    top: 80px;
-    width: 450px;
-    margin-left: 2vw;
-    margin-right: 2vw;
+    margin-top: 30px;
+    width: 400px;
+    height: 400px;
 }
 
 .Name-Description-Cont {
@@ -15,16 +13,17 @@
     flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
-    position: absolute;
-    top: 500px;
     max-width: 80vw;
 }
 
 .Name {
-    font-size: xxx-large;
+    font-size: 45pt;
     letter-spacing: 7px;
 }
 
+.NameSmall {
+}
+
 .Description {
-    font-size: larger;
+    font-size: 17pt;
 }

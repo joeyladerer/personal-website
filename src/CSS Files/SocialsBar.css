@@ -4,12 +4,10 @@
     align-items: center;
     justify-content: space-around;
     padding: 0px;
-
-
-    position: absolute;
+    flex-wrap: wrap;
     width: 70vw;
-    height: 30px;
-    top: 770px;
+    margin-top: 70px;
+
 }
 
 .Button {
