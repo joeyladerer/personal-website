@@ -6,8 +6,8 @@ function NavButton(props) {
     return (
         <Button
             className={"Nav-Button"}
-            color={"white"}
-            _hover={{backgroundColor: "black", color: "#FFF38A"}}
+            color={props.color}
+            _hover={{backgroundColor: "black", color: "#FD9BFF"}}
             outline={"black"}
             _focus={{color: "#FFF38A", fontSize: "large"}}
             variant={"unstyled"}

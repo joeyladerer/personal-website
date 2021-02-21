@@ -4,7 +4,11 @@ import './App.css';
 import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
 
 import HomePage from "./Organisms/HomePage";
+import Music from "./Organisms/Music";
 import SocialsBar from "./Molecules/SocialsBar";
+import AboutMe from "./Organisms/AboutMe";
+import Gallery from "./Organisms/Gallery";
+import Resume from "./Organisms/Resume";
 
 function App() {
     return (
@@ -15,16 +19,16 @@ function App() {
                         <HomePage/>
                     </Route>
                     <Route path={"/music"}>
-                        <HomePage/>
+                        <Music/>
                     </Route>
                     <Route path={"/about"}>
-                        <HomePage/>
+                        <AboutMe/>
                     </Route>
                     <Route path={"/gallery"}>
-                        <HomePage/>
+                        <Gallery/>
                     </Route>
                     <Route path={"/resume"}>
-                        <HomePage/>
+                        <Resume/>
                     </Route>
                 </Switch>
                 <Center>

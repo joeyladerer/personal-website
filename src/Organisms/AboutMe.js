@@ -3,23 +3,20 @@ import {Box, Center} from "@chakra-ui/react"
 import HomePhoto from "../Molecules/HomePhoto";
 import '../CSS Files/HomePage.css'
 import HomeNameAndDescription from "../Molecules/HomeNameAndDescription";
-import HomeNavBar from "../Molecules/NavBars/HomeNavBar";
+import AboutNavBar from "../Molecules/NavBars/AboutNavBar";
 import ProfileImage from '../Images/mainprofilebest.png'
 
-function HomePage() {
+function AboutMe() {
     return (
         <Box>
             <Center>
-            <HomeNavBar/>
+                <AboutNavBar/>
             </Center>
             <Center>
-            <div className={"Profile-Image"}>
-                <img src={ProfileImage}/>
-            </div>
+                <h1 style={{color: "white"}}>a page about me!</h1>
             </Center>
-            <HomeNameAndDescription/>
         </Box>
     )
 }
 
-export default HomePage
+export default AboutMe
