@@ -1,7 +1,9 @@
 import React from "react"
-import {Box, Center} from "@chakra-ui/react"
+import {Box, Center, Button} from "@chakra-ui/react"
 import '../CSS Files/HomePage.css'
 import ResumeNavBar from "../Molecules/NavBars/ResumeNavBar";
+import PageInfo from "../Molecules/PageInfo";
+import JoeyResume from '../Images/Screen Shot 2021-02-21 at 3.57.36 PM.png'
 
 function Resume() {
     return (
@@ -10,8 +12,20 @@ function Resume() {
                 <ResumeNavBar/>
             </Center>
             <Center>
-                <h1 style={{color: "white"}}>a page with a resume!</h1>
+                <PageInfo text={""}/>
             </Center>
+            <Center>
+                <img src={JoeyResume} style={{margin: 20}}/>
+            </Center>
+            <Button
+                color={"#FFF38A"}
+                _hover={{backgroundColor: "#373737", color: "#FD9BFF", borderColor: "#FD9BFF"}}
+                outline={"black"}
+                variant={"outline"}
+                borderColor={"#FFF38A"}
+                onClick={() => window.open("https://drive.google.com/file/d/1ga7IpLlBdMHEZGHbFaK7DRwoBAmLnqId/view?usp=sharing", "_blank")}
+            >click here to download as pdf
+            </Button>
         </Box>
     )
 }

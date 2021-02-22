@@ -19,7 +19,7 @@ function HomeNameAndDescription() {
         <div className={"Name-Description-Cont"}>
             <h1 className={"Name"}>JOEY LADERER</h1>
             <ColoredLine color={"#DAD398"} />
-            <p className={"Description"}>hi! welcome to my website, the perfect place for fellow computer science nerds, musicians, video editors,
+            <p className={"Description"}>Hi! Welcome to my website, the perfect place for fellow computer science nerds, musicians, video editors,
                 and food enthusiasts.</p>
         </div>
         </Center>
