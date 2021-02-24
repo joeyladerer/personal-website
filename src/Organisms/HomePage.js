@@ -17,7 +17,9 @@ function HomePage() {
                 <img src={ProfileImage}/>
             </div>
             </Center>
+            <Center>
             <HomeNameAndDescription/>
+            </Center>
         </Box>
     )
 }

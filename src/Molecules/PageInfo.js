@@ -2,7 +2,7 @@ import React from "react"
 import '../CSS Files/GenericPageInfo.css'
 import {Center} from "@chakra-ui/react";
 
-const ColoredLine = ({ color }) => (
+const ColoredLine = ({color}) => (
     <hr
         style={{
             color: color,
@@ -18,7 +18,7 @@ function PageInfo(props) {
         <Center>
             <div className={"Name-Description-Cont"}>
                 <h1 className={"Name"}>JOEY LADERER</h1>
-                <ColoredLine color={"#DAD398"} />
+                <ColoredLine color={"#DAD398"}/>
                 <p className={"Description"}>{props.text}</p>
             </div>
         </Center>

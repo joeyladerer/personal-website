@@ -32,7 +32,7 @@ function App() {
                     </Route>
                 </Switch>
                 <Center>
-                <SocialsBar/>
+                    <SocialsBar/>
                 </Center>
             </Box>
         </Router>

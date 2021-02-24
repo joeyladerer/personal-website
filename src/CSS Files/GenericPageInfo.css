@@ -1,12 +1,12 @@
 .Name-Description-Cont {
     font-family: "typeface-copse", serif;
     color: #DAD398;
-    display: flex;
     flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
-    max-width: 80vw;
+    max-width: 90%;
     margin-top: 30px;
+    text-align: center;
 }
 
 .Name {

@@ -9,11 +9,13 @@ function Music() {
             <Center>
                 <MusicNavBar/>
             </Center>
-            <PageInfo text={
-                "Music has always been a part of my life; from the moment i picked up the ukulele with my grandpa, " +
-                "I knew music was something I loved. To this day, music stays part of my life. I produce using " +
-                "Logic Pro X, and work on two separate musical endeavors: Joey Laderer (my solo project) and Sugar Drive."
-            } />
+            <Center>
+                <PageInfo text={
+                    "Music has always been a part of my life; from the moment i picked up the ukulele with my grandpa, " +
+                    "I knew music was something I loved. To this day, music stays part of my life. I produce using " +
+                    "Logic Pro X, and work on two separate musical endeavors: Joey Laderer (my solo project) and Sugar Drive."
+                }/>
+            </Center>
         </Box>
     )
 }

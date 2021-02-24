@@ -13,12 +13,14 @@ function AboutMe() {
             <Center>
                 <AboutNavBar/>
             </Center>
+            <Center>
             <PageInfo text={
                 "I am currently attending the University of California, Berkeley, majoring in Electrical Engineering, " +
                 "Computer Science, and Business Administration. When I’m not coding or studying, you can find me mountain biking, " +
                 "slacklining, eating, exploring new places, editing videos, or jamming out to some music. Read on to learn " +
                 "more about my projects, experiences, and skills!"
             } />
+            </Center>
         </Box>
     )
 }
