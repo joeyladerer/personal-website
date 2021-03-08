@@ -42,7 +42,7 @@ function Music() {
                 marginTop={10}
                 marginLeft={5}
                 marginRight={5}
-                onClick={() => window.open("https://open.spotify.com/artist/5VfZ4trT5WsG9IkEGnWOMy?si=UvARutaTRJuvf0N27HktuA", "_blank")}
+                onClick={() => window.open("https://music.apple.com/us/artist/joey-laderer/1512388519", "_blank")}
             >apple music
             </Button>
             </div>
