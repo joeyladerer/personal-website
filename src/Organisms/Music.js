@@ -1,5 +1,5 @@
 import React from "react"
-import {Box, Center} from "@chakra-ui/react"
+import {Box, Button, Center} from "@chakra-ui/react"
 import MusicNavBar from "../Molecules/NavBars/MusicNavBar";
 import PageInfo from "../Molecules/PageInfo";
 
@@ -16,6 +16,36 @@ function Music() {
                     "Logic Pro X, and work on two separate musical endeavors: Joey Laderer (my solo project) and Sugar Drive."
                 }/>
             </Center>
+            <div style={{
+                display: "flex",
+                flexWrap: "wrap",
+                justifyContent: "center"
+            }}>
+            <Button
+                color={"#FFF38A"}
+                _hover={{backgroundColor: "#373737", color: "#FD9BFF", borderColor: "#FD9BFF"}}
+                outline={"black"}
+                variant={"outline"}
+                borderColor={"#FFF38A"}
+                marginTop={10}
+                marginLeft={5}
+                marginRight={5}
+                onClick={() => window.open("https://open.spotify.com/artist/5VfZ4trT5WsG9IkEGnWOMy?si=UvARutaTRJuvf0N27HktuA", "_blank")}
+            >spotify
+            </Button>
+            <Button
+                color={"#FFF38A"}
+                _hover={{backgroundColor: "#373737", color: "#FD9BFF", borderColor: "#FD9BFF"}}
+                outline={"black"}
+                variant={"outline"}
+                borderColor={"#FFF38A"}
+                marginTop={10}
+                marginLeft={5}
+                marginRight={5}
+                onClick={() => window.open("https://open.spotify.com/artist/5VfZ4trT5WsG9IkEGnWOMy?si=UvARutaTRJuvf0N27HktuA", "_blank")}
+            >apple music
+            </Button>
+            </div>
         </Box>
     )
 }
