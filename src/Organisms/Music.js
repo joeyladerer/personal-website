@@ -2,6 +2,7 @@ import React from "react"
 import {Box, Button, Center} from "@chakra-ui/react"
 import MusicNavBar from "../Molecules/NavBars/MusicNavBar";
 import PageInfo from "../Molecules/PageInfo";
+import AlbumCoverGallery from "../Molecules/AlbumCoverGallery";
 
 function Music() {
     return (
@@ -23,7 +24,11 @@ function Music() {
             }}>
             <Button
                 color={"#FFF38A"}
-                _hover={{backgroundColor: "#373737", color: "#FD9BFF", borderColor: "#FD9BFF"}}
+                _hover={{
+                    backgroundColor: "#373737",
+                    color: "#FD9BFF",
+                    borderColor: "#FD9BFF"
+                }}
                 outline={"black"}
                 variant={"outline"}
                 borderColor={"#FFF38A"}
@@ -46,6 +51,9 @@ function Music() {
             >apple music
             </Button>
             </div>
+            <Center>
+                <AlbumCoverGallery />
+            </Center>
         </Box>
     )
 }
